@@ -7,18 +7,22 @@
 
 #include <stdio.h>
 
-int sum_up(int a, int b);
+// function declaration
+int factorial(int num);
 
-int main(int argc, const char * argv[]) {
-    int a = 5;
-    int b = 10;
-    // insert code here...
-    printf("Hello, World!\n");
-    printf("%d \n", sum_up(a, b));
+int main() {
+    int x = 5;
+    
+    printf("The factorial of %d is %d\n", x, factorial(x));
+    
     return 0;
 }
 
-int sum_up(int a, int b) {
-    a += b;
-    return a;
+// function definition
+int factorial(int num) {
+    if (num == 1) {
+        return (1);
+    } else {
+        return (num * factorial(num - 1));
+    }
 }
