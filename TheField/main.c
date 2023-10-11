@@ -7,27 +7,19 @@
 
 #include <stdio.h>
 
-int a[2][3]; /* A 2 x 3 array */
-int b[2][3];
+void test(int k);
 
 int main() {
+    int i = 0;
     
-    int a[2][3] = {
-        {3,2,6},
-        {4,5,20}
-    };
+    printf("The address of i is %x\n", &i);
+    test(i);
+    printf("The address of i is %x\n", &i);
+    test(i);
     
-    int b[2][3] = { {3,2,6}, {4,5,20} };
-    
-    printf("Element 3 in row 2 is %d\n", a[1][2]); /* 20 */
-    a[1][2] = 25;
-    printf("Element 3 in row 2 is %d\n", a[1][2]); /* 25 */
-    
-    /* iteration through two-dimensional array */
-    int k;
-    int j;
-    /* display array contents */
-        printf("first element is -  %d \n", a[0][0]);
     return 0;
 }
 
+void test(int k) {
+    printf("The address of k is %x\n", &k);
+}
