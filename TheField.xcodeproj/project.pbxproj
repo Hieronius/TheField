@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
 		DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */; };
 		DD8E181E2AD6365600528D03 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181D2AD6365600528D03 /* Pointers.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD8D11352AD7827C0064DD40 /* PointersInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointersInArray.h; sourceTree = "<group>"; };
+		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
 		DD8E18192AD6296300528D03 /* Two-Dimensional_Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Two-Dimensional_Array.h"; sourceTree = "<group>"; };
 		DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Two-Dimensional_Array.c"; sourceTree = "<group>"; };
 		DD8E181C2AD6365600528D03 /* Pointers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pointers.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				DD8E181D2AD6365600528D03 /* Pointers.c */,
 				DD8E18192AD6296300528D03 /* Two-Dimensional_Array.h */,
 				DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */,
+				DD8D11352AD7827C0064DD40 /* PointersInArray.h */,
+				DD8D11362AD7827C0064DD40 /* PointersInArray.c */,
 			);
 			path = TheField;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
 				DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */,
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,

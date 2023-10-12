@@ -1,15 +1,11 @@
 //
-//  main.c
+//  PointersInArray.c
 //  TheField
 //
-//  Created by Арсентий Халимовский on 07.10.2023.
+//  Created by Арсентий Халимовский on 12.10.2023.
 //
 
-#include <stdio.h>
-
-int main() {
-    
-}
+// #include "PointersInArray.h"
 
 //
 //int main() {
@@ -44,7 +40,3 @@ int main() {
 //    printf("%d %x\n", *ptr, ptr);
 //
 //}
-
-
-
-
