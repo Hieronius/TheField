@@ -12,6 +12,7 @@
 		DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */; };
 		DD8E181E2AD6365600528D03 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181D2AD6365600528D03 /* Pointers.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
+		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		DD8E181D2AD6365600528D03 /* Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
 		DD8F1F672AD0E90A00EDBF28 /* TheField */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheField; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8F1F6A2AD0E90A00EDBF28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DD936FED2AD8D6520094257B /* PassingAnArrayToFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassingAnArrayToFunction.h; sourceTree = "<group>"; };
+		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				DD8D11362AD7827C0064DD40 /* PointersInArray.c */,
 				DD8D11382AD787590064DD40 /* Swap_Function.h */,
 				DD8D11392AD787590064DD40 /* Swap_Function.c */,
+				DD936FED2AD8D6520094257B /* PassingAnArrayToFunction.h */,
+				DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */,
 			);
 			path = TheField;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */,
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
+				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
