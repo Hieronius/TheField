@@ -5,7 +5,7 @@
 //  Created by Арсентий Халимовский on 11.10.2023.
 //
 
-#include "Pointers.h"
+// #include "Pointers.h"
 
 // int main() {
 //    int j = 63;
