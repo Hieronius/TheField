@@ -13,6 +13,7 @@
 		DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11392AD787590064DD40 /* Swap_Function.c */; };
 		DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */; };
 		DD8E181E2AD6365600528D03 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181D2AD6365600528D03 /* Pointers.c */; };
+		DD8E2C682AE0B47000A4059C /* Pointers In Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */; };
 		DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E81E72ADA2E6D00D4E721 /* ReturnPointerToArray.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
 		DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD908CE72ADF63D7000D389F /* Array of Pointers.c */; };
@@ -38,6 +39,7 @@
 		DD8D11392AD787590064DD40 /* Swap_Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swap_Function.c; sourceTree = "<group>"; };
 		DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Two-Dimensional_Array.c"; sourceTree = "<group>"; };
 		DD8E181D2AD6365600528D03 /* Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
+		DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Functions.c"; sourceTree = "<group>"; };
 		DD8E81E72ADA2E6D00D4E721 /* ReturnPointerToArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReturnPointerToArray.c; sourceTree = "<group>"; };
 		DD8F1F672AD0E90A00EDBF28 /* TheField */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheField; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8F1F6A2AD0E90A00EDBF28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				DD8BF9C82ADB883000D6CBBD /* String.c */,
 				DD812DCB2ADE1C7300F26BF5 /* String Functions.c */,
 				DD908CE72ADF63D7000D389F /* Array of Pointers.c */,
+				DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */,
 				DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */,
 				DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */,
+				DD8E2C682AE0B47000A4059C /* Pointers In Functions.c in Sources */,
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
