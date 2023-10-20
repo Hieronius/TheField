@@ -17,6 +17,7 @@
 		DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E81E72ADA2E6D00D4E721 /* ReturnPointerToArray.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
 		DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD908CE72ADF63D7000D389F /* Array of Pointers.c */; };
+		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		DD8F1F672AD0E90A00EDBF28 /* TheField */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheField; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8F1F6A2AD0E90A00EDBF28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DD908CE72ADF63D7000D389F /* Array of Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Array of Pointers.c"; sourceTree = "<group>"; };
+		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 				DD812DCB2ADE1C7300F26BF5 /* String Functions.c */,
 				DD908CE72ADF63D7000D389F /* Array of Pointers.c */,
 				DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */,
+				DD9165E62AE219B100B69F97 /* Structs.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				DD8BF9C92ADB883000D6CBBD /* String.c in Sources */,
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,
+				DD9165E72AE219B100B69F97 /* Structs.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
 				DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */,
 				DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */,
