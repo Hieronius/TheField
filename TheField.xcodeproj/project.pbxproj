@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD812DCB2ADE1C7300F26BF5 /* String Functions.c */; };
+		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
 		DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11392AD787590064DD40 /* Swap_Function.c */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		DD812DCB2ADE1C7300F26BF5 /* String Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Functions.c"; sourceTree = "<group>"; };
+		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
 		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
 		DD8D11392AD787590064DD40 /* Swap_Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swap_Function.c; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */,
 				DD9165E62AE219B100B69F97 /* Structs.c */,
 				DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */,
+				DD896BEE2AE5F85E003BE371 /* Unions.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
+				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
