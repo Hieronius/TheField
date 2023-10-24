@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD812DCB2ADE1C7300F26BF5 /* String Functions.c */; };
+		DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		DD812DCB2ADE1C7300F26BF5 /* String Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Functions.c"; sourceTree = "<group>"; };
+		DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Union.c"; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
 		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				DD9165E62AE219B100B69F97 /* Structs.c */,
 				DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */,
 				DD896BEE2AE5F85E003BE371 /* Unions.c */,
+				DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				DD8BF9C92ADB883000D6CBBD /* String.c in Sources */,
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,
 				DD9165E72AE219B100B69F97 /* Structs.c in Sources */,
+				DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */,
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
 				DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */,
