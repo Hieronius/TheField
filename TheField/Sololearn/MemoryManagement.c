@@ -10,11 +10,11 @@
 #include <stdio.h>
 #include <stdlib.h> // for memory management
 
-int main() {
-    int x;
-    int arr[10];
-    printf("%ld", sizeof(x)); // 4 bytes per element
-    printf("%ld", sizeof(arr)); // 4 * 10 bytes gives us 40
+//int main() {
+//    int x;
+//    int arr[10];
+//    printf("%ld", sizeof(x)); // 4 bytes per element
+//    printf("%ld", sizeof(arr)); // 4 * 10 bytes gives us 40
     
     // malloc; // Returns a pointer to a contiguous block of memory that is of size bytes;
     
@@ -23,4 +23,4 @@ int main() {
     // realloc(ptr, bytes) Resized the momery pointed to by ptr to size bytes. The newly allocated memory is not initialized.
     
     // free(ptr) Releases the block of memory pointed to by ptr;
-}
+//}

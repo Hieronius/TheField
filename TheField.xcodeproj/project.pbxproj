@@ -20,6 +20,7 @@
 		DD8EF6F42AE8A84B00C03476 /* MemoryManagement.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF6F32AE8A84B00C03476 /* MemoryManagement.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
 		DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD908CE72ADF63D7000D389F /* Array of Pointers.c */; };
+		DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */; };
 		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 		DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */; };
@@ -52,6 +53,7 @@
 		DD8F1F672AD0E90A00EDBF28 /* TheField */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheField; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8F1F6A2AD0E90A00EDBF28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DD908CE72ADF63D7000D389F /* Array of Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Array of Pointers.c"; sourceTree = "<group>"; };
+		DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "malloc()_free().c"; sourceTree = "<group>"; };
 		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 		DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Structs in functions and arrays.c"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				DD896BEE2AE5F85E003BE371 /* Unions.c */,
 				DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */,
 				DD8EF6F32AE8A84B00C03476 /* MemoryManagement.c */,
+				DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
 				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
+				DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
