@@ -11,6 +11,7 @@
 		DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
+		DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8C374F2AECA0E8006B3536 /* calloc functions.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
 		DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11392AD787590064DD40 /* Swap_Function.c */; };
 		DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */; };
@@ -43,6 +44,7 @@
 		DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Union.c"; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
+		DD8C374F2AECA0E8006B3536 /* calloc functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "calloc functions.c"; sourceTree = "<group>"; };
 		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
 		DD8D11392AD787590064DD40 /* Swap_Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swap_Function.c; sourceTree = "<group>"; };
 		DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Two-Dimensional_Array.c"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */,
 				DD8EF6F32AE8A84B00C03476 /* MemoryManagement.c */,
 				DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */,
+				DD8C374F2AECA0E8006B3536 /* calloc functions.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
 				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
+				DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */,
 				DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
