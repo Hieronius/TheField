@@ -26,6 +26,7 @@
 		DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */; };
 		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
+		DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94C3992AF1D5DD0063172F /* PointersExample.c */; };
 		DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "malloc()_free().c"; sourceTree = "<group>"; };
 		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
+		DD94C3992AF1D5DD0063172F /* PointersExample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersExample.c; sourceTree = "<group>"; };
 		DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Structs in functions and arrays.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				DD8C374F2AECA0E8006B3536 /* calloc functions.c */,
 				DD903C962AEDF3920057E090 /* Allocating memory for strings.c */,
 				DD903C982AEDF3A30057E090 /* Dynamic Arrays Memory Management.c */,
+				DD94C3992AF1D5DD0063172F /* PointersExample.c */,
 			);
 			path = Sololearn;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */,
 				DD903C972AEDF3920057E090 /* Allocating memory for strings.c in Sources */,
 				DD8BF9C92ADB883000D6CBBD /* String.c in Sources */,
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,

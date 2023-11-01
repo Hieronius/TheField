@@ -1,10 +1,11 @@
 //
-//  main.c
+//  PointersExample.c
 //  TheField
 //
-//  Created by Арсентий Халимовский on 07.10.2023.
+//  Created by Арсентий Халимовский on 01.11.2023.
 //
 
+/*
 #include <stdio.h>
 #define N 16
 // argc - "argument count of command line", argv - "arguments data type.
@@ -56,6 +57,4 @@ int main(int argc, char* argv[]) {
 //    }
     return 0;
 }
-
-
-
+ */
