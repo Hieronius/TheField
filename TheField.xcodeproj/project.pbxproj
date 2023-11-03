@@ -11,6 +11,7 @@
 		DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */; };
 		DD8917482AF32A6C00DB8E21 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8917472AF32A6C00DB8E21 /* address.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
+		DD8B79FC2AF4E0FE003762DE /* IterateArrayAndMapSquare().c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
 		DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8C374F2AECA0E8006B3536 /* calloc functions.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
@@ -48,6 +49,7 @@
 		DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Union.c"; sourceTree = "<group>"; };
 		DD8917472AF32A6C00DB8E21 /* address.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = address.c; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
+		DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "IterateArrayAndMapSquare().c"; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
 		DD8C374F2AECA0E8006B3536 /* calloc functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "calloc functions.c"; sourceTree = "<group>"; };
 		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD8B79FA2AF4E0BC003762DE /* School21 */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */,
+			);
+			path = School21;
+			sourceTree = "<group>";
+		};
 		DD8BF9C62ADB71C800D6CBBD /* Sololearn */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				DD8F1F6A2AD0E90A00EDBF28 /* main.c */,
+				DD8B79FA2AF4E0BC003762DE /* School21 */,
 				DD8BF9C62ADB71C800D6CBBD /* Sololearn */,
 			);
 			path = TheField;
@@ -206,6 +217,7 @@
 				DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */,
 				DD8E2C682AE0B47000A4059C /* Pointers In Functions.c in Sources */,
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
+				DD8B79FC2AF4E0FE003762DE /* IterateArrayAndMapSquare().c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
 				DD8917482AF32A6C00DB8E21 /* address.c in Sources */,
