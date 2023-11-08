@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD812DCB2ADE1C7300F26BF5 /* String Functions.c */; };
+		DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8855292AF8717100621865 /* TheGameOfLife.c */; };
 		DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */; };
 		DD8917482AF32A6C00DB8E21 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8917472AF32A6C00DB8E21 /* address.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		DD812DCB2ADE1C7300F26BF5 /* String Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Functions.c"; sourceTree = "<group>"; };
+		DD8855292AF8717100621865 /* TheGameOfLife.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TheGameOfLife.c; sourceTree = "<group>"; };
 		DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Union.c"; sourceTree = "<group>"; };
 		DD8917472AF32A6C00DB8E21 /* address.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = address.c; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				DD8B7A012AF5E0B3003762DE /* Example1.c */,
 				DD8B7A032AF5E247003762DE /* Example2.c */,
+				DD8855292AF8717100621865 /* TheGameOfLife.c */,
 			);
 			path = TheGameOfLifeProject;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				DD8917482AF32A6C00DB8E21 /* address.c in Sources */,
 				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
 				DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */,
+				DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */,
 				DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

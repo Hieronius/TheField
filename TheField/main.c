@@ -5,208 +5,129 @@
 //  Created by Арсентий Халимовский on 07.10.2023.
 //
 
+#include <ncurses.h>
 #include <stdio.h>
-#include <stdbool.h>
 #include <stdlib.h>
-#include <string.h>
-#include <time.h>
+#include <unistd.h>
 
-#define MOORE_SEARCH_DEPTH 1
+#define N 25  // высота
+#define M 80  // ширина
 
-#define WORLD_WIDTH 50
-#define WORLD_HEIGHT 50
+int creating_points(int A[N][M], int B[N][M]);
+void rendering(int A[N][M]);
+void initialization(int A[N][M]);
+void update() { printf("\033[H\033[J"); }
 
-#define LOOP_ADVANCE_DELAY 100
+int main() {
+    int A[N][M];
+    int B[N][M];
+    int speed = 1000;
+    int era = 0;
+    int life = 0;
+    initialization(A);
 
-typedef struct {
-    bool* readCells;
-    bool* writeCells;
+    initscr();
+    cbreak();
+    noecho();
 
-    size_t width;
-    size_t height;
+    nodelay(stdscr, TRUE);
 
-} World;
-
-// All write operations are done to writeArray, and all read operations are read from
-//  read array.
-
-// Returns a pointer to a newly allocated World with the given dimensions
-World* newWorld(size_t width, size_t height);
-
-// Gets/Sets the Cell at the given position
-void setCell(World* world, size_t x, size_t y, bool isAlive);
-bool getCell(World*, size_t x, size_t y);
-
-// Returns a char array representing the World
-char* formatWorld(World*);
-// Helper that prints the array returned from the function
-void printWorld(World*);
-
-// Advances the world by one "tick"
-void advanceWorld(World*);
-
-// Returns a representation of a non-ragged 2D array with the given dimensions
-//  where all the cells are dead
-bool* newDeadCells(size_t width, size_t height) {
-    bool* cells = malloc(sizeof(bool) * width * height);
-
-    for (size_t i = 0; i < (width * height); i++) {
-        cells[i] = false;
+    while (life == 0) {
+        printf("ERA: %d\n", era);
+        rendering(A);
+        usleep(speed * 100);
+        update();
+        if (creating_points(A, B) == 1) {
+            printf("GAME OVER\n");
+            printf("LIFE IS OVER");
+            life = 1;
+        }
+        int input = getch();
+        if (input == 'f') {
+            speed -= 200;
+        } else if ((input == 's') && speed < 5000) {
+            speed += 200;
+        } else if (input == 'q') {
+            exit(1);
+        }
+        era += 1;
     }
-
-    return cells;
+    endwin();
+    return 0;
 }
 
-World* newWorld(size_t width, size_t height) {
-    World* w = malloc(sizeof(World));
+int creating_points(int A[N][M], int B[N][M]) {
+    int i1, i3, j1, j3, life = 1;
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++) {
+            if (i == 0) {
+                i1 = N - 1;
+                i3 = i + 1;
+            } else if (i == N - 1) {
+                i1 = i - 1;
+                i3 = 0;
+            } else {
+                i1 = i - 1;
+                i3 = i + 1;
+            }
 
-    w->width = width;
-    w->height = height;
+            if (j == 0) {
+                j1 = M - 1;
+                j3 = j + 1;
+            } else if (j == M - 1) {
+                j1 = j - 1;
+                j3 = 0;
+            } else {
+                j1 = j - 1;
+                j3 = j + 1;
+            }
 
-    w->readCells = newDeadCells(width, height);
-    w->writeCells = newDeadCells(width, height);
-
-    return w;
-}
-
-// Randomizes the cells so that each cell has an aliveChance chance of being alive
-void randomizeCells(World* world, float aliveChance) {
-    size_t width = world->width;
-    size_t height = world->height;
-
-    for (size_t i = 0; i < (width * height); i++) {
-        world->readCells[i] = (rand() % 100) < aliveChance * 100;
-    }
-}
-
-// Overwrites the readable cells with the writable cells
-void copyWritableToReadable(World* world) {
-    memcpy(world->readCells, world->writeCells,
-        sizeof(bool) * world->width * world->height);
-}
-
-// Frees the given World and any memory associated with it
-void freeWorld(World* world) {
-    free(world->readCells);
-    free(world->writeCells);
-    free(world);
-}
-
-size_t indexOf(size_t width, size_t x, size_t y) {
-    return width * y + x;
-}
-
-void setCell(World* world, size_t x, size_t y, bool isAlive) {
-    size_t index = indexOf(world->width, x, y);
-
-    world->writeCells[index] = isAlive;
-}
-
-bool getCell(World* world, size_t x, size_t y) {
-    int index = indexOf(world->width, x, y);
-
-    return world->readCells[index];
-}
-
-// Returns the number of live neighbors surrounding the given position.
-// depth returns how many squares to look in each direction. 1 = Standard Moore Neighborhood.
-size_t nAliveNeighborsSurrounding(World* world, size_t x, size_t y, size_t depth) {
-    size_t xBound = min(x + depth + 1, world->width);
-    size_t yBound = min(y + depth + 1, world->height);
-
-    size_t aliveCount = 0;
-    for (size_t ny = max(0, y - depth); ny < yBound; ny++) {
-        for (size_t nx = max(0, x - depth); nx < xBound; nx++) {
-
-            if (getCell(world, nx, ny) && !(nx == x && ny == y)) {
-                aliveCount++;
+            int sum01 =
+                A[i1][j1] + A[i1][j] + A[i1][j3] + A[i][j1] + A[i][j3] + A[i3][j1] + A[i3][j] + A[i3][j3];
+            if ((sum01 == 2 && A[i][j] == 1) || (sum01 == 3)) {
+                B[i][j] = 1;
+                life = 0;
+            } else {
+                B[i][j] = 0;
             }
         }
     }
 
-    return aliveCount;
-}
-
-bool cellShouldLive(bool isAlive, size_t nNeighbors) {
-    return (isAlive && nNeighbors >= 2 && nNeighbors <= 3)
-        || (!isAlive && nNeighbors == 3);
-}
-
-// Decides if a cell should live or die, and sets it accordingly
-void advanceCellAt(World* world, size_t x, size_t y) {
-    size_t nNeighbors = nAliveNeighborsSurrounding(world, x, y, MOORE_SEARCH_DEPTH);
-    bool isAlive = getCell(world, x, y);
-
-    setCell(world, x, y, cellShouldLive(isAlive, nNeighbors));
-}
-
-void advanceWorld(World* world) {
-    size_t width = world->width;
-    size_t height = world->height;
-
-    for (size_t y = 0; y < height; y++) {
-        for (size_t x = 0; x < width; x++) {
-            advanceCellAt(world, x, y);
+    // Запись расчётов в матрицу А из матрицы В
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++) {
+            A[i][j] = B[i][j];
         }
     }
-
-    copyWritableToReadable(world);
+    return life;
 }
 
-char* formatWorld(World* world) {
-    size_t width = world->width;
-    size_t height = world->height;
-
-    size_t nCells = width * height;
-
-    // total cells needed + extra for newlines + NL term
-    size_t buffSize = sizeof(char) * nCells + height + 1;
-    char* buffer = malloc(buffSize);
-    buffer[buffSize - 1] = '\0';
-
-    size_t i = 0;
-    for (size_t y = 0; y < height; y++) {
-        for (size_t x = 0; x < width; x++) {
-            bool isAlive = getCell(world, x, y);
-            char rep = isAlive ? '#' : ' ';
-            buffer[i] = rep;
-
-            i++;
+void initialization(int A[N][M]) {
+    // Заполнение массива информацией из файла    `
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++) {
+            char buf;
+            if ((buf = getchar()) != EOF) {
+                A[i][j] = buf % 2;
+            }
         }
-
-        buffer[i] = '\n';
-
-        i++;
     }
-
-    return buffer;
-}
-
-void printWorld(World* world) {
-    char* formatted = formatWorld(world);
-    printf("%s", formatted);
-    free(formatted);
-}
-
-void simpleConsoleRoutine() {
-    srand(NULL);
-
-    World* world = newWorld(WORLD_WIDTH, WORLD_HEIGHT);
-    randomizeCells(world, 0.3);
-
-    // Leaving it with a counter so I can limit it easily later
-    for (size_t i = 0; ; i++) {
-        printWorld(world);
-        printf("----------\n");
-
-        advanceWorld(world);
-
-        Sleep(LOOP_ADVANCE_DELAY);
+    FILE* fp = freopen("/dev/tty", "r", stdin);
+    if (fp == NULL) {
+        exit(1);
     }
-
-    // No need to free world?
 }
 
-int main() {
-    simpleConsoleRoutine();
+void rendering(int A[N][M]) {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++) {
+            if (A[i][j] == 1) {
+                printf("#");
+            } else {
+                printf(" ");
+            }
+        }
+        printf("\n\r");
+    }
+    fflush(stdout);
 }
