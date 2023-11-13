@@ -34,6 +34,7 @@
 		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 		DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94C3992AF1D5DD0063172F /* PointersExample.c */; };
+		DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BF92B01A67B00118062 /* Day8Task3.c */; };
 		DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 		DD94C3992AF1D5DD0063172F /* PointersExample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersExample.c; sourceTree = "<group>"; };
+		DD976BF92B01A67B00118062 /* Day8Task3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Day8Task3.c; sourceTree = "<group>"; };
 		DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Structs in functions and arrays.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 			children = (
 				DD8A300D2AFF0FC3005E0FDE /* Task2.c */,
 				DD8BF48F2AFC6B82007B7F66 /* door_struct.h */,
+				DD976BF92B01A67B00118062 /* Day8Task3.c */,
 			);
 			path = T11D17;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				DD8BF9C92ADB883000D6CBBD /* String.c in Sources */,
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,
 				DD9165E72AE219B100B69F97 /* Structs.c in Sources */,
+				DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */,
 				DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */,
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
