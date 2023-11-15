@@ -35,6 +35,7 @@
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 		DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94C3992AF1D5DD0063172F /* PointersExample.c */; };
 		DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BF92B01A67B00118062 /* Day8Task3.c */; };
+		DD976BFC2B044DC600118062 /* Task1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BFB2B044DC600118062 /* Task1.c */; };
 		DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 		DD94C3992AF1D5DD0063172F /* PointersExample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersExample.c; sourceTree = "<group>"; };
 		DD976BF92B01A67B00118062 /* Day8Task3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Day8Task3.c; sourceTree = "<group>"; };
+		DD976BFB2B044DC600118062 /* Task1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Task1.c; sourceTree = "<group>"; };
 		DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Structs in functions and arrays.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			children = (
 				DD8BF4922AFC6B91007B7F66 /* T11D17 */,
 				DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */,
+				DD976BFB2B044DC600118062 /* Task1.c */,
 			);
 			path = School21;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */,
 				DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */,
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
+				DD976BFC2B044DC600118062 /* Task1.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
 				DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */,
 				DD903C992AEDF3A30057E090 /* Dynamic Arrays Memory Management.c in Sources */,
