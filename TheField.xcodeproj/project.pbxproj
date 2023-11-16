@@ -32,6 +32,7 @@
 		DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD908CE72ADF63D7000D389F /* Array of Pointers.c */; };
 		DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */; };
 		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
+		DD92B8502B059F4C0084F3D4 /* Write_Task.c in Sources */ = {isa = PBXBuildFile; fileRef = DD92B84F2B059F4C0084F3D4 /* Write_Task.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
 		DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94C3992AF1D5DD0063172F /* PointersExample.c */; };
 		DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BF92B01A67B00118062 /* Day8Task3.c */; };
@@ -79,6 +80,7 @@
 		DD908CE72ADF63D7000D389F /* Array of Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Array of Pointers.c"; sourceTree = "<group>"; };
 		DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "malloc()_free().c"; sourceTree = "<group>"; };
 		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
+		DD92B84F2B059F4C0084F3D4 /* Write_Task.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Write_Task.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
 		DD94C3992AF1D5DD0063172F /* PointersExample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersExample.c; sourceTree = "<group>"; };
 		DD976BF92B01A67B00118062 /* Day8Task3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Day8Task3.c; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				DD8A300D2AFF0FC3005E0FDE /* Task2.c */,
 				DD8BF48F2AFC6B82007B7F66 /* door_struct.h */,
 				DD976BF92B01A67B00118062 /* Day8Task3.c */,
+				DD92B84F2B059F4C0084F3D4 /* Write_Task.c */,
 			);
 			path = T11D17;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
 				DD8917482AF32A6C00DB8E21 /* address.c in Sources */,
+				DD92B8502B059F4C0084F3D4 /* Write_Task.c in Sources */,
 				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
 				DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */,
 				DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */,
