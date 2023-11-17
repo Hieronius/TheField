@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD812DCB2ADE1C7300F26BF5 /* String Functions.c */; };
 		DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8855292AF8717100621865 /* TheGameOfLife.c */; };
+		DD88DEF72B06F30C0026BD4C /* MathTask1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88DEF62B06F30C0026BD4C /* MathTask1.c */; };
 		DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */; };
 		DD8917482AF32A6C00DB8E21 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8917472AF32A6C00DB8E21 /* address.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		DD812DCB2ADE1C7300F26BF5 /* String Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Functions.c"; sourceTree = "<group>"; };
 		DD8855292AF8717100621865 /* TheGameOfLife.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TheGameOfLife.c; sourceTree = "<group>"; };
+		DD88DEF62B06F30C0026BD4C /* MathTask1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MathTask1.c; sourceTree = "<group>"; };
 		DD88E21A2AE74A3800F7C66B /* Pointers In Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Union.c"; sourceTree = "<group>"; };
 		DD8917472AF32A6C00DB8E21 /* address.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = address.c; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD88DEF52B06F2EE0026BD4C /* StivenPratt */ = {
+			isa = PBXGroup;
+			children = (
+				DD88DEF62B06F30C0026BD4C /* MathTask1.c */,
+			);
+			path = StivenPratt;
+			sourceTree = "<group>";
+		};
 		DD8B79FA2AF4E0BC003762DE /* School21 */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +195,7 @@
 		DD8F1F692AD0E90A00EDBF28 /* TheField */ = {
 			isa = PBXGroup;
 			children = (
+				DD88DEF52B06F2EE0026BD4C /* StivenPratt */,
 				DD8F1F6A2AD0E90A00EDBF28 /* main.c */,
 				DD8B7A002AF5E0A1003762DE /* TheGameOfLifeProject */,
 				DD8B79FA2AF4E0BC003762DE /* School21 */,
@@ -261,6 +272,7 @@
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,
 				DD9165E72AE219B100B69F97 /* Structs.c in Sources */,
 				DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */,
+				DD88DEF72B06F30C0026BD4C /* MathTask1.c in Sources */,
 				DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */,
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
 				DD976BFC2B044DC600118062 /* Task1.c in Sources */,
