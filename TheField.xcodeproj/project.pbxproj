@@ -18,6 +18,7 @@
 		DD8B79FF2AF5D22C003762DE /* CheckInputData.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B79FE2AF5D22C003762DE /* CheckInputData.c */; };
 		DD8B7A022AF5E0B3003762DE /* Example1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7A012AF5E0B3003762DE /* Example1.c */; };
 		DD8B7A042AF5E247003762DE /* Example2.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7A032AF5E247003762DE /* Example2.c */; };
+		DD8BDF982B085C1B005CB06B /* 4_1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BDF972B085C1B005CB06B /* 4_1.c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
 		DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8C374F2AECA0E8006B3536 /* calloc functions.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
@@ -65,6 +66,7 @@
 		DD8B79FE2AF5D22C003762DE /* CheckInputData.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CheckInputData.c; sourceTree = "<group>"; };
 		DD8B7A012AF5E0B3003762DE /* Example1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Example1.c; sourceTree = "<group>"; };
 		DD8B7A032AF5E247003762DE /* Example2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Example2.c; sourceTree = "<group>"; };
+		DD8BDF972B085C1B005CB06B /* 4_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_1.c; sourceTree = "<group>"; };
 		DD8BF48F2AFC6B82007B7F66 /* door_struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = door_struct.h; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
 		DD8C374F2AECA0E8006B3536 /* calloc functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "calloc functions.c"; sourceTree = "<group>"; };
@@ -137,6 +139,14 @@
 			path = TheGameOfLifeProject;
 			sourceTree = "<group>";
 		};
+		DD8BDF962B085B41005CB06B /* Stepik */ = {
+			isa = PBXGroup;
+			children = (
+				DD8BDF972B085C1B005CB06B /* 4_1.c */,
+			);
+			path = Stepik;
+			sourceTree = "<group>";
+		};
 		DD8BF4922AFC6B91007B7F66 /* T11D17 */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +205,7 @@
 		DD8F1F692AD0E90A00EDBF28 /* TheField */ = {
 			isa = PBXGroup;
 			children = (
+				DD8BDF962B085B41005CB06B /* Stepik */,
 				DD88DEF52B06F2EE0026BD4C /* StivenPratt */,
 				DD8F1F6A2AD0E90A00EDBF28 /* main.c */,
 				DD8B7A002AF5E0A1003762DE /* TheGameOfLifeProject */,
@@ -277,6 +288,7 @@
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
 				DD976BFC2B044DC600118062 /* Task1.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
+				DD8BDF982B085C1B005CB06B /* 4_1.c in Sources */,
 				DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */,
 				DD903C992AEDF3A30057E090 /* Dynamic Arrays Memory Management.c in Sources */,
 				DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */,
