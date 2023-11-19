@@ -5,13 +5,15 @@
 //  Created by Арсентий Халимовский on 18.11.2023.
 //
 
-#include <stdio.h>
-#include <math.h>
-
-int main() {
-    int A;
-    scanf("%d", &A);
-    double R = (M_PI/180) * A;
-    printf("%.2lf", R);
-    return 0;
-}
+//#include <stdio.h>
+//
+//int main() {
+//    int a;
+//    scanf("%d", &a);
+//    if (a % 2 == 0) {
+//        printf("0");
+//    } else {
+//        printf("1");
+//    }
+//    return 0;
+//}
