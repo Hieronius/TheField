@@ -5,10 +5,10 @@
 //  Created by Арсентий Халимовский on 08.12.2023.
 //
 
+// MARK: TASK № 143
+
 //#include <stdio.h>
 //#define SIZE 5
-//
-//// MARK: TASK № 143
 //
 //int main() {
 //    int array[SIZE];
