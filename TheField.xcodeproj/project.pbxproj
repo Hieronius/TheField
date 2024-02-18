@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD4382A92B086ADE000C9B85 /* 4_4.c in Sources */ = {isa = PBXBuildFile; fileRef = DD4382A82B086ADD000C9B85 /* 4_4.c */; };
 		DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD812DCB2ADE1C7300F26BF5 /* String Functions.c */; };
 		DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8855292AF8717100621865 /* TheGameOfLife.c */; };
 		DD88DEF72B06F30C0026BD4C /* MathTask1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD88DEF62B06F30C0026BD4C /* MathTask1.c */; };
@@ -14,31 +15,77 @@
 		DD8917482AF32A6C00DB8E21 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8917472AF32A6C00DB8E21 /* address.c */; };
 		DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD896BEE2AE5F85E003BE371 /* Unions.c */; };
 		DD8A300E2AFF0FC3005E0FDE /* Task2.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8A300D2AFF0FC3005E0FDE /* Task2.c */; };
+		DD8A47582B1AC715006345B9 /* TwoWaysToFillArrayWithFibonachi.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8A47572B1AC715006345B9 /* TwoWaysToFillArrayWithFibonachi.c */; };
+		DD8B18DF2B12D4EA00826060 /* 1_5.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B18DE2B12D4EA00826060 /* 1_5.c */; };
 		DD8B79FC2AF4E0FE003762DE /* IterateArrayAndMapSquare().c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */; };
 		DD8B79FF2AF5D22C003762DE /* CheckInputData.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B79FE2AF5D22C003762DE /* CheckInputData.c */; };
 		DD8B7A022AF5E0B3003762DE /* Example1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7A012AF5E0B3003762DE /* Example1.c */; };
 		DD8B7A042AF5E247003762DE /* Example2.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7A032AF5E247003762DE /* Example2.c */; };
 		DD8BDF982B085C1B005CB06B /* 4_1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BDF972B085C1B005CB06B /* 4_1.c */; };
+		DD8BDF9A2B085FC8005CB06B /* 4_2.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BDF992B085FC8005CB06B /* 4_2.c */; };
+		DD8BDF9C2B0865EB005CB06B /* 4_3.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BDF9B2B0865EB005CB06B /* 4_3.c */; };
 		DD8BF9C92ADB883000D6CBBD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF9C82ADB883000D6CBBD /* String.c */; };
 		DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8C374F2AECA0E8006B3536 /* calloc functions.c */; };
 		DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11362AD7827C0064DD40 /* PointersInArray.c */; };
 		DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8D11392AD787590064DD40 /* Swap_Function.c */; };
+		DD8DFC1B2B214DE400F59C0C /* Basic.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8DFC1A2B214DE400F59C0C /* Basic.c */; };
 		DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */; };
 		DD8E181E2AD6365600528D03 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E181D2AD6365600528D03 /* Pointers.c */; };
 		DD8E2C682AE0B47000A4059C /* Pointers In Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */; };
+		DD8E51BA2B09A25E0088365E /* 4_5.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51B92B09A25E0088365E /* 4_5.c */; };
+		DD8E51BC2B09A46B0088365E /* 4_6.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51BB2B09A46B0088365E /* 4_6.c */; };
+		DD8E51BE2B09ACE80088365E /* 4_33.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51BD2B09ACE80088365E /* 4_33.c */; };
+		DD8E51C02B09B0030088365E /* 4_34.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51BF2B09B0030088365E /* 4_34.c */; };
+		DD8E51C22B0B104B0088365E /* 4_9.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51C12B0B104B0088365E /* 4_9.c */; };
+		DD8E51C42B0B13500088365E /* 5_1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E51C32B0B13500088365E /* 5_1.c */; };
+		DD8E65FB2B189D3E007D4C0F /* PrintfOfAnyArguments.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E65FA2B189D3E007D4C0F /* PrintfOfAnyArguments.c */; };
+		DD8E65FD2B18A0E1007D4C0F /* HowToCreateAnArrayWithSizeOf.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E65FC2B18A0E1007D4C0F /* HowToCreateAnArrayWithSizeOf.c */; };
 		DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E81E72ADA2E6D00D4E721 /* ReturnPointerToArray.c */; };
+		DD8E90A42B2E93C4004C13A0 /* Task 155.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8E90A32B2E93C4004C13A0 /* Task 155.c */; };
 		DD8EF6F42AE8A84B00C03476 /* MemoryManagement.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF6F32AE8A84B00C03476 /* MemoryManagement.c */; };
 		DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F1F6A2AD0E90A00EDBF28 /* main.c */; };
+		DD8F8CD52B33CAA900FD1934 /* SimpleBashUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8F8CD42B33CAA900FD1934 /* SimpleBashUtils.c */; };
+		DD8FC8F32B37C63E0057786E /* Task 158 (Undone).c in Sources */ = {isa = PBXBuildFile; fileRef = DD8FC8F22B37C63E0057786E /* Task 158 (Undone).c */; };
+		DD8FF16A2B0C3E6C0006323F /* 5_2.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8FF1692B0C3E6C0006323F /* 5_2.c */; };
+		DD9034AB2B1430500078D8BB /* 1_55.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9034AA2B1430500078D8BB /* 1_55.c */; };
 		DD903C972AEDF3920057E090 /* Allocating memory for strings.c in Sources */ = {isa = PBXBuildFile; fileRef = DD903C962AEDF3920057E090 /* Allocating memory for strings.c */; };
 		DD903C992AEDF3A30057E090 /* Dynamic Arrays Memory Management.c in Sources */ = {isa = PBXBuildFile; fileRef = DD903C982AEDF3A30057E090 /* Dynamic Arrays Memory Management.c */; };
+		DD9059A52B2BDCB60054FA0E /* Task 150.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9059A42B2BDCB60054FA0E /* Task 150.c */; };
+		DD9059A72B2BDF1E0054FA0E /* Task 151.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9059A62B2BDF1E0054FA0E /* Task 151.c */; };
+		DD9059A92B2BE61A0054FA0E /* Task 152.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9059A82B2BE61A0054FA0E /* Task 152.c */; };
 		DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD908CE72ADF63D7000D389F /* Array of Pointers.c */; };
 		DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */; };
 		DD9165E72AE219B100B69F97 /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9165E62AE219B100B69F97 /* Structs.c */; };
+		DD91B03B2B2FDBAA0092D761 /* Task 156.c in Sources */ = {isa = PBXBuildFile; fileRef = DD91B03A2B2FDBAA0092D761 /* Task 156.c */; };
+		DD91B03D2B2FDBD20092D761 /* BinarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = DD91B03C2B2FDBD20092D761 /* BinarySearch.c */; };
+		DD9281C32B22A1AF0087186C /* Task 143.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9281C22B22A1AF0087186C /* Task 143.c */; };
+		DD9281C52B22A6640087186C /* Task 144.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9281C42B22A6640087186C /* Task 144.c */; };
+		DD92A2AF2B1C160600A73440 /* FindMinimumValueInArrayWithPointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD92A2AE2B1C160600A73440 /* FindMinimumValueInArrayWithPointers.c */; };
 		DD92B8502B059F4C0084F3D4 /* Write_Task.c in Sources */ = {isa = PBXBuildFile; fileRef = DD92B84F2B059F4C0084F3D4 /* Write_Task.c */; };
 		DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */; };
+		DD9372532B1580ED008630FD /* 1_56.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9372522B1580ED008630FD /* 1_56.c */; };
+		DD93D5962B16D3B500F325F4 /* ScanfWithMultipleChecks.c in Sources */ = {isa = PBXBuildFile; fileRef = DD93D5952B16D3B500F325F4 /* ScanfWithMultipleChecks.c */; };
+		DD93D5982B16D66700F325F4 /* 1_6.c in Sources */ = {isa = PBXBuildFile; fileRef = DD93D5972B16D66700F325F4 /* 1_6.c */; };
+		DD9402392B27ED9400BBAAB7 /* guessTheNumberGame.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9402382B27ED9400BBAAB7 /* guessTheNumberGame.c */; };
+		DD94023B2B27F5BE00BBAAB7 /* SimpleQuizGame.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94023A2B27F5BE00BBAAB7 /* SimpleQuizGame.c */; };
+		DD94023E2B29A90F00BBAAB7 /* Task 145.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94023D2B29A90F00BBAAB7 /* Task 145.c */; };
+		DD9402402B29AC9C00BBAAB7 /* IterateThroughTwoDimensionalArraysWithPointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94023F2B29AC9C00BBAAB7 /* IterateThroughTwoDimensionalArraysWithPointers.c */; };
+		DD9402422B29B93A00BBAAB7 /* AccessToThreeDimensionalArrayWithPointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9402412B29B93A00BBAAB7 /* AccessToThreeDimensionalArrayWithPointers.c */; };
+		DD9402442B29C09600BBAAB7 /* Task 146.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9402432B29C09600BBAAB7 /* Task 146.c */; };
 		DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94C3992AF1D5DD0063172F /* PointersExample.c */; };
+		DD95C6C72B2D2BC800A56224 /* DirectSortSort.c in Sources */ = {isa = PBXBuildFile; fileRef = DD95C6C62B2D2BC800A56224 /* DirectSortSort.c */; };
+		DD95C6C92B2D2CB300A56224 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = DD95C6C82B2D2CB300A56224 /* BubbleSort.c */; };
+		DD95C6CB2B2D382F00A56224 /* Task 153.c in Sources */ = {isa = PBXBuildFile; fileRef = DD95C6CA2B2D382F00A56224 /* Task 153.c */; };
+		DD95C6CD2B2D385700A56224 /* Task 154.c in Sources */ = {isa = PBXBuildFile; fileRef = DD95C6CC2B2D385700A56224 /* Task 154.c */; };
 		DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BF92B01A67B00118062 /* Day8Task3.c */; };
 		DD976BFC2B044DC600118062 /* Task1.c in Sources */ = {isa = PBXBuildFile; fileRef = DD976BFB2B044DC600118062 /* Task1.c */; };
+		DD9849752B2AF4B10051E29C /* Task 147.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9849742B2AF4B10051E29C /* Task 147.c */; };
+		DD9849772B2B00800051E29C /* Task 148.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9849762B2B00800051E29C /* Task 148.c */; };
+		DD9849792B2B03430051E29C /* Task 149.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9849782B2B03430051E29C /* Task 149.c */; };
+		DD9CB7542B312BF200C4FB28 /* Task 157.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9CB7532B312BF200C4FB28 /* Task 157.c */; };
+		DDA04AAA2B383F5B00B71D5C /* 1_71.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA04AA92B383F5B00B71D5C /* 1_71.c */; };
+		DDA04AAC2B3852AA00B71D5C /* 1_72.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA04AAB2B3852AA00B71D5C /* 1_72.c */; };
+		DDA23ED82B1975B000513983 /* ReverseArrayWithPointers.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA23ED72B1975B000513983 /* ReverseArrayWithPointers.c */; };
 		DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD4382A82B086ADD000C9B85 /* 4_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_4.c; sourceTree = "<group>"; };
 		DD812DCB2ADE1C7300F26BF5 /* String Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Functions.c"; sourceTree = "<group>"; };
 		DD8855292AF8717100621865 /* TheGameOfLife.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TheGameOfLife.c; sourceTree = "<group>"; };
 		DD88DEF62B06F30C0026BD4C /* MathTask1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MathTask1.c; sourceTree = "<group>"; };
@@ -62,33 +110,79 @@
 		DD8917472AF32A6C00DB8E21 /* address.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = address.c; sourceTree = "<group>"; };
 		DD896BEE2AE5F85E003BE371 /* Unions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Unions.c; sourceTree = "<group>"; };
 		DD8A300D2AFF0FC3005E0FDE /* Task2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Task2.c; sourceTree = "<group>"; };
+		DD8A47572B1AC715006345B9 /* TwoWaysToFillArrayWithFibonachi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TwoWaysToFillArrayWithFibonachi.c; sourceTree = "<group>"; };
+		DD8B18DE2B12D4EA00826060 /* 1_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_5.c; sourceTree = "<group>"; };
 		DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "IterateArrayAndMapSquare().c"; sourceTree = "<group>"; };
 		DD8B79FE2AF5D22C003762DE /* CheckInputData.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CheckInputData.c; sourceTree = "<group>"; };
 		DD8B7A012AF5E0B3003762DE /* Example1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Example1.c; sourceTree = "<group>"; };
 		DD8B7A032AF5E247003762DE /* Example2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Example2.c; sourceTree = "<group>"; };
 		DD8BDF972B085C1B005CB06B /* 4_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_1.c; sourceTree = "<group>"; };
+		DD8BDF992B085FC8005CB06B /* 4_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2.c; sourceTree = "<group>"; };
+		DD8BDF9B2B0865EB005CB06B /* 4_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3.c; sourceTree = "<group>"; };
 		DD8BF48F2AFC6B82007B7F66 /* door_struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = door_struct.h; sourceTree = "<group>"; };
 		DD8BF9C82ADB883000D6CBBD /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
 		DD8C374F2AECA0E8006B3536 /* calloc functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "calloc functions.c"; sourceTree = "<group>"; };
 		DD8D11362AD7827C0064DD40 /* PointersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersInArray.c; sourceTree = "<group>"; };
 		DD8D11392AD787590064DD40 /* Swap_Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swap_Function.c; sourceTree = "<group>"; };
+		DD8DFC1A2B214DE400F59C0C /* Basic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic.c; sourceTree = "<group>"; };
 		DD8E181A2AD6296300528D03 /* Two-Dimensional_Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Two-Dimensional_Array.c"; sourceTree = "<group>"; };
 		DD8E181D2AD6365600528D03 /* Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
 		DD8E2C672AE0B47000A4059C /* Pointers In Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pointers In Functions.c"; sourceTree = "<group>"; };
+		DD8E51B92B09A25E0088365E /* 4_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_5.c; sourceTree = "<group>"; };
+		DD8E51BB2B09A46B0088365E /* 4_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_6.c; sourceTree = "<group>"; };
+		DD8E51BD2B09ACE80088365E /* 4_33.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_33.c; sourceTree = "<group>"; };
+		DD8E51BF2B09B0030088365E /* 4_34.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_34.c; sourceTree = "<group>"; };
+		DD8E51C12B0B104B0088365E /* 4_9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_9.c; sourceTree = "<group>"; };
+		DD8E51C32B0B13500088365E /* 5_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1.c; sourceTree = "<group>"; };
+		DD8E65FA2B189D3E007D4C0F /* PrintfOfAnyArguments.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PrintfOfAnyArguments.c; sourceTree = "<group>"; };
+		DD8E65FC2B18A0E1007D4C0F /* HowToCreateAnArrayWithSizeOf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HowToCreateAnArrayWithSizeOf.c; sourceTree = "<group>"; };
 		DD8E81E72ADA2E6D00D4E721 /* ReturnPointerToArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReturnPointerToArray.c; sourceTree = "<group>"; };
+		DD8E90A32B2E93C4004C13A0 /* Task 155.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 155.c"; sourceTree = "<group>"; };
 		DD8EF6F32AE8A84B00C03476 /* MemoryManagement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MemoryManagement.c; sourceTree = "<group>"; };
 		DD8F1F672AD0E90A00EDBF28 /* TheField */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheField; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8F1F6A2AD0E90A00EDBF28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DD8F8CD42B33CAA900FD1934 /* SimpleBashUtils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SimpleBashUtils.c; sourceTree = "<group>"; };
+		DD8FC8F22B37C63E0057786E /* Task 158 (Undone).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 158 (Undone).c"; sourceTree = "<group>"; };
+		DD8FF1692B0C3E6C0006323F /* 5_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_2.c; sourceTree = "<group>"; };
+		DD9034AA2B1430500078D8BB /* 1_55.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_55.c; sourceTree = "<group>"; };
 		DD903C962AEDF3920057E090 /* Allocating memory for strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Allocating memory for strings.c"; sourceTree = "<group>"; };
 		DD903C982AEDF3A30057E090 /* Dynamic Arrays Memory Management.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Dynamic Arrays Memory Management.c"; sourceTree = "<group>"; };
+		DD9059A42B2BDCB60054FA0E /* Task 150.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 150.c"; sourceTree = "<group>"; };
+		DD9059A62B2BDF1E0054FA0E /* Task 151.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 151.c"; sourceTree = "<group>"; };
+		DD9059A82B2BE61A0054FA0E /* Task 152.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 152.c"; sourceTree = "<group>"; };
 		DD908CE72ADF63D7000D389F /* Array of Pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Array of Pointers.c"; sourceTree = "<group>"; };
 		DD9165AA2AE9F94D00D661B2 /* malloc()_free().c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "malloc()_free().c"; sourceTree = "<group>"; };
 		DD9165E62AE219B100B69F97 /* Structs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
+		DD91B03A2B2FDBAA0092D761 /* Task 156.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 156.c"; sourceTree = "<group>"; };
+		DD91B03C2B2FDBD20092D761 /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
+		DD9281C22B22A1AF0087186C /* Task 143.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 143.c"; sourceTree = "<group>"; };
+		DD9281C42B22A6640087186C /* Task 144.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 144.c"; sourceTree = "<group>"; };
+		DD92A2AE2B1C160600A73440 /* FindMinimumValueInArrayWithPointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FindMinimumValueInArrayWithPointers.c; sourceTree = "<group>"; };
 		DD92B84F2B059F4C0084F3D4 /* Write_Task.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Write_Task.c; sourceTree = "<group>"; };
 		DD936FEE2AD8D6520094257B /* PassingAnArrayToFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingAnArrayToFunction.c; sourceTree = "<group>"; };
+		DD9372522B1580ED008630FD /* 1_56.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_56.c; sourceTree = "<group>"; };
+		DD93D5952B16D3B500F325F4 /* ScanfWithMultipleChecks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ScanfWithMultipleChecks.c; sourceTree = "<group>"; };
+		DD93D5972B16D66700F325F4 /* 1_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_6.c; sourceTree = "<group>"; };
+		DD9402382B27ED9400BBAAB7 /* guessTheNumberGame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = guessTheNumberGame.c; sourceTree = "<group>"; };
+		DD94023A2B27F5BE00BBAAB7 /* SimpleQuizGame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SimpleQuizGame.c; sourceTree = "<group>"; };
+		DD94023D2B29A90F00BBAAB7 /* Task 145.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 145.c"; sourceTree = "<group>"; };
+		DD94023F2B29AC9C00BBAAB7 /* IterateThroughTwoDimensionalArraysWithPointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IterateThroughTwoDimensionalArraysWithPointers.c; sourceTree = "<group>"; };
+		DD9402412B29B93A00BBAAB7 /* AccessToThreeDimensionalArrayWithPointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AccessToThreeDimensionalArrayWithPointers.c; sourceTree = "<group>"; };
+		DD9402432B29C09600BBAAB7 /* Task 146.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 146.c"; sourceTree = "<group>"; };
 		DD94C3992AF1D5DD0063172F /* PointersExample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersExample.c; sourceTree = "<group>"; };
+		DD95C6C62B2D2BC800A56224 /* DirectSortSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DirectSortSort.c; sourceTree = "<group>"; };
+		DD95C6C82B2D2CB300A56224 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		DD95C6CA2B2D382F00A56224 /* Task 153.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 153.c"; sourceTree = "<group>"; };
+		DD95C6CC2B2D385700A56224 /* Task 154.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 154.c"; sourceTree = "<group>"; };
 		DD976BF92B01A67B00118062 /* Day8Task3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Day8Task3.c; sourceTree = "<group>"; };
 		DD976BFB2B044DC600118062 /* Task1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Task1.c; sourceTree = "<group>"; };
+		DD9849742B2AF4B10051E29C /* Task 147.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 147.c"; sourceTree = "<group>"; };
+		DD9849762B2B00800051E29C /* Task 148.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 148.c"; sourceTree = "<group>"; };
+		DD9849782B2B03430051E29C /* Task 149.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 149.c"; sourceTree = "<group>"; };
+		DD9CB7532B312BF200C4FB28 /* Task 157.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Task 157.c"; sourceTree = "<group>"; };
+		DDA04AA92B383F5B00B71D5C /* 1_71.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_71.c; sourceTree = "<group>"; };
+		DDA04AAB2B3852AA00B71D5C /* 1_72.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_72.c; sourceTree = "<group>"; };
+		DDA23ED72B1975B000513983 /* ReverseArrayWithPointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseArrayWithPointers.c; sourceTree = "<group>"; };
 		DDBCCEDC2AE3771B00937917 /* Structs in functions and arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Structs in functions and arrays.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,12 +205,42 @@
 			path = StivenPratt;
 			sourceTree = "<group>";
 		};
+		DD8B18DC2B12D4B800826060 /* CourseMFT */ = {
+			isa = PBXGroup;
+			children = (
+				DD8BDF972B085C1B005CB06B /* 4_1.c */,
+				DD8BDF992B085FC8005CB06B /* 4_2.c */,
+				DD8BDF9B2B0865EB005CB06B /* 4_3.c */,
+				DD4382A82B086ADD000C9B85 /* 4_4.c */,
+				DD8E51B92B09A25E0088365E /* 4_5.c */,
+				DD8E51BB2B09A46B0088365E /* 4_6.c */,
+				DD8E51BD2B09ACE80088365E /* 4_33.c */,
+				DD8E51BF2B09B0030088365E /* 4_34.c */,
+				DD8E51C12B0B104B0088365E /* 4_9.c */,
+				DD8E51C32B0B13500088365E /* 5_1.c */,
+				DD8FF1692B0C3E6C0006323F /* 5_2.c */,
+			);
+			path = CourseMFT;
+			sourceTree = "<group>";
+		};
+		DD8B18DD2B12D4D200826060 /* CourseWithTheCat */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B18DE2B12D4EA00826060 /* 1_5.c */,
+				DD9034AA2B1430500078D8BB /* 1_55.c */,
+				DD9372522B1580ED008630FD /* 1_56.c */,
+				DD93D5972B16D66700F325F4 /* 1_6.c */,
+				DDA04AA92B383F5B00B71D5C /* 1_71.c */,
+				DDA04AAB2B3852AA00B71D5C /* 1_72.c */,
+			);
+			path = CourseWithTheCat;
+			sourceTree = "<group>";
+		};
 		DD8B79FA2AF4E0BC003762DE /* School21 */ = {
 			isa = PBXGroup;
 			children = (
-				DD8BF4922AFC6B91007B7F66 /* T11D17 */,
-				DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */,
-				DD976BFB2B044DC600118062 /* Task1.c */,
+				DD8F8CD32B33CA8800FD1934 /* SurviveCamp */,
+				DD8F8CD22B33CA7F00FD1934 /* MainCourse */,
 			);
 			path = School21;
 			sourceTree = "<group>";
@@ -125,6 +249,14 @@
 			isa = PBXGroup;
 			children = (
 				DD8B79FE2AF5D22C003762DE /* CheckInputData.c */,
+				DD93D5952B16D3B500F325F4 /* ScanfWithMultipleChecks.c */,
+				DD8E65FA2B189D3E007D4C0F /* PrintfOfAnyArguments.c */,
+				DD8E65FC2B18A0E1007D4C0F /* HowToCreateAnArrayWithSizeOf.c */,
+				DDA23ED72B1975B000513983 /* ReverseArrayWithPointers.c */,
+				DD8A47572B1AC715006345B9 /* TwoWaysToFillArrayWithFibonachi.c */,
+				DD92A2AE2B1C160600A73440 /* FindMinimumValueInArrayWithPointers.c */,
+				DD94023F2B29AC9C00BBAAB7 /* IterateThroughTwoDimensionalArraysWithPointers.c */,
+				DD9402412B29B93A00BBAAB7 /* AccessToThreeDimensionalArrayWithPointers.c */,
 			);
 			path = "Tips and Tricks";
 			sourceTree = "<group>";
@@ -142,7 +274,8 @@
 		DD8BDF962B085B41005CB06B /* Stepik */ = {
 			isa = PBXGroup;
 			children = (
-				DD8BDF972B085C1B005CB06B /* 4_1.c */,
+				DD8B18DD2B12D4D200826060 /* CourseWithTheCat */,
+				DD8B18DC2B12D4B800826060 /* CourseMFT */,
 			);
 			path = Stepik;
 			sourceTree = "<group>";
@@ -186,6 +319,53 @@
 			path = Sololearn;
 			sourceTree = "<group>";
 		};
+		DD8DFC192B214DAD00F59C0C /* Coaching */ = {
+			isa = PBXGroup;
+			children = (
+				DD8DFC1A2B214DE400F59C0C /* Basic.c */,
+			);
+			path = Coaching;
+			sourceTree = "<group>";
+		};
+		DD8DFC1C2B215EE200F59C0C /* TaskBookKultin */ = {
+			isa = PBXGroup;
+			children = (
+				DD8DFC1D2B215F0900F59C0C /* ArraysAndPointers */,
+			);
+			path = TaskBookKultin;
+			sourceTree = "<group>";
+		};
+		DD8DFC1D2B215F0900F59C0C /* ArraysAndPointers */ = {
+			isa = PBXGroup;
+			children = (
+				DD9281C22B22A1AF0087186C /* Task 143.c */,
+				DD9281C42B22A6640087186C /* Task 144.c */,
+				DD94023D2B29A90F00BBAAB7 /* Task 145.c */,
+				DD9402432B29C09600BBAAB7 /* Task 146.c */,
+				DD9849742B2AF4B10051E29C /* Task 147.c */,
+				DD9849762B2B00800051E29C /* Task 148.c */,
+				DD9849782B2B03430051E29C /* Task 149.c */,
+				DD9059A42B2BDCB60054FA0E /* Task 150.c */,
+				DD9059A62B2BDF1E0054FA0E /* Task 151.c */,
+				DD9059A82B2BE61A0054FA0E /* Task 152.c */,
+				DD95C6CA2B2D382F00A56224 /* Task 153.c */,
+				DD95C6CC2B2D385700A56224 /* Task 154.c */,
+				DD8E90A32B2E93C4004C13A0 /* Task 155.c */,
+				DD91B03A2B2FDBAA0092D761 /* Task 156.c */,
+				DD9CB7532B312BF200C4FB28 /* Task 157.c */,
+				DD8FC8F22B37C63E0057786E /* Task 158 (Undone).c */,
+			);
+			path = ArraysAndPointers;
+			sourceTree = "<group>";
+		};
+		DD8E90A52B2E9441004C13A0 /* SearchAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				DD91B03C2B2FDBD20092D761 /* BinarySearch.c */,
+			);
+			path = SearchAlgorithms;
+			sourceTree = "<group>";
+		};
 		DD8F1F5E2AD0E90A00EDBF28 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +385,10 @@
 		DD8F1F692AD0E90A00EDBF28 /* TheField */ = {
 			isa = PBXGroup;
 			children = (
+				DD8E90A52B2E9441004C13A0 /* SearchAlgorithms */,
+				DD95C6C52B2D2BB300A56224 /* SortsOnC */,
+				DD8DFC1C2B215EE200F59C0C /* TaskBookKultin */,
+				DD8DFC192B214DAD00F59C0C /* Coaching */,
 				DD8BDF962B085B41005CB06B /* Stepik */,
 				DD88DEF52B06F2EE0026BD4C /* StivenPratt */,
 				DD8F1F6A2AD0E90A00EDBF28 /* main.c */,
@@ -212,8 +396,45 @@
 				DD8B79FA2AF4E0BC003762DE /* School21 */,
 				DD8BF9C62ADB71C800D6CBBD /* Sololearn */,
 				DD8B79FD2AF5D20A003762DE /* Tips and Tricks */,
+				DD94023C2B27F5C900BBAAB7 /* SimplePrograms */,
 			);
 			path = TheField;
+			sourceTree = "<group>";
+		};
+		DD8F8CD22B33CA7F00FD1934 /* MainCourse */ = {
+			isa = PBXGroup;
+			children = (
+				DD8F8CD42B33CAA900FD1934 /* SimpleBashUtils.c */,
+			);
+			path = MainCourse;
+			sourceTree = "<group>";
+		};
+		DD8F8CD32B33CA8800FD1934 /* SurviveCamp */ = {
+			isa = PBXGroup;
+			children = (
+				DD8BF4922AFC6B91007B7F66 /* T11D17 */,
+				DD8B79FB2AF4E0FE003762DE /* IterateArrayAndMapSquare().c */,
+				DD976BFB2B044DC600118062 /* Task1.c */,
+			);
+			path = SurviveCamp;
+			sourceTree = "<group>";
+		};
+		DD94023C2B27F5C900BBAAB7 /* SimplePrograms */ = {
+			isa = PBXGroup;
+			children = (
+				DD9402382B27ED9400BBAAB7 /* guessTheNumberGame.c */,
+				DD94023A2B27F5BE00BBAAB7 /* SimpleQuizGame.c */,
+			);
+			path = SimplePrograms;
+			sourceTree = "<group>";
+		};
+		DD95C6C52B2D2BB300A56224 /* SortsOnC */ = {
+			isa = PBXGroup;
+			children = (
+				DD95C6C62B2D2BC800A56224 /* DirectSortSort.c */,
+				DD95C6C82B2D2CB300A56224 /* BubbleSort.c */,
+			);
+			path = SortsOnC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,36 +494,83 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA04AAC2B3852AA00B71D5C /* 1_72.c in Sources */,
+				DD9034AB2B1430500078D8BB /* 1_55.c in Sources */,
+				DD8E51BE2B09ACE80088365E /* 4_33.c in Sources */,
+				DD9059A52B2BDCB60054FA0E /* Task 150.c in Sources */,
+				DD95C6CB2B2D382F00A56224 /* Task 153.c in Sources */,
+				DD8B18DF2B12D4EA00826060 /* 1_5.c in Sources */,
 				DD94C39A2AF1D5DD0063172F /* PointersExample.c in Sources */,
+				DD8A47582B1AC715006345B9 /* TwoWaysToFillArrayWithFibonachi.c in Sources */,
 				DD8A300E2AFF0FC3005E0FDE /* Task2.c in Sources */,
+				DD9849752B2AF4B10051E29C /* Task 147.c in Sources */,
+				DD8DFC1B2B214DE400F59C0C /* Basic.c in Sources */,
+				DD9402402B29AC9C00BBAAB7 /* IterateThroughTwoDimensionalArraysWithPointers.c in Sources */,
+				DD9059A92B2BE61A0054FA0E /* Task 152.c in Sources */,
+				DD8E90A42B2E93C4004C13A0 /* Task 155.c in Sources */,
 				DD8B7A042AF5E247003762DE /* Example2.c in Sources */,
+				DD8F8CD52B33CAA900FD1934 /* SimpleBashUtils.c in Sources */,
 				DD8B7A022AF5E0B3003762DE /* Example1.c in Sources */,
 				DD8B79FF2AF5D22C003762DE /* CheckInputData.c in Sources */,
 				DD903C972AEDF3920057E090 /* Allocating memory for strings.c in Sources */,
 				DD8BF9C92ADB883000D6CBBD /* String.c in Sources */,
 				DD8E81E82ADA2E6D00D4E721 /* ReturnPointerToArray.c in Sources */,
 				DD9165E72AE219B100B69F97 /* Structs.c in Sources */,
+				DDA23ED82B1975B000513983 /* ReverseArrayWithPointers.c in Sources */,
+				DD93D5982B16D66700F325F4 /* 1_6.c in Sources */,
+				DD8E65FB2B189D3E007D4C0F /* PrintfOfAnyArguments.c in Sources */,
+				DD8BDF9A2B085FC8005CB06B /* 4_2.c in Sources */,
+				DD9402392B27ED9400BBAAB7 /* guessTheNumberGame.c in Sources */,
+				DD8E51BA2B09A25E0088365E /* 4_5.c in Sources */,
+				DD95C6C72B2D2BC800A56224 /* DirectSortSort.c in Sources */,
+				DD9402442B29C09600BBAAB7 /* Task 146.c in Sources */,
 				DD976BFA2B01A67B00118062 /* Day8Task3.c in Sources */,
+				DD93D5962B16D3B500F325F4 /* ScanfWithMultipleChecks.c in Sources */,
 				DD88DEF72B06F30C0026BD4C /* MathTask1.c in Sources */,
+				DD9CB7542B312BF200C4FB28 /* Task 157.c in Sources */,
 				DD88E21B2AE74A3800F7C66B /* Pointers In Union.c in Sources */,
+				DD8E51C42B0B13500088365E /* 5_1.c in Sources */,
+				DD8FF16A2B0C3E6C0006323F /* 5_2.c in Sources */,
 				DDBCCEDD2AE3771B00937917 /* Structs in functions and arrays.c in Sources */,
 				DD976BFC2B044DC600118062 /* Task1.c in Sources */,
 				DD8D11372AD7827C0064DD40 /* PointersInArray.c in Sources */,
 				DD8BDF982B085C1B005CB06B /* 4_1.c in Sources */,
 				DD812DCC2ADE1C7300F26BF5 /* String Functions.c in Sources */,
+				DD9372532B1580ED008630FD /* 1_56.c in Sources */,
+				DD9402422B29B93A00BBAAB7 /* AccessToThreeDimensionalArrayWithPointers.c in Sources */,
+				DD8E65FD2B18A0E1007D4C0F /* HowToCreateAnArrayWithSizeOf.c in Sources */,
 				DD903C992AEDF3A30057E090 /* Dynamic Arrays Memory Management.c in Sources */,
+				DDA04AAA2B383F5B00B71D5C /* 1_71.c in Sources */,
 				DD908CE82ADF63D7000D389F /* Array of Pointers.c in Sources */,
 				DD8E181B2AD6296300528D03 /* Two-Dimensional_Array.c in Sources */,
+				DD8E51C22B0B104B0088365E /* 4_9.c in Sources */,
+				DD4382A92B086ADE000C9B85 /* 4_4.c in Sources */,
 				DD8EF6F42AE8A84B00C03476 /* MemoryManagement.c in Sources */,
+				DD9849772B2B00800051E29C /* Task 148.c in Sources */,
+				DD8E51C02B09B0030088365E /* 4_34.c in Sources */,
+				DD91B03D2B2FDBD20092D761 /* BinarySearch.c in Sources */,
+				DD8FC8F32B37C63E0057786E /* Task 158 (Undone).c in Sources */,
+				DD94023E2B29A90F00BBAAB7 /* Task 145.c in Sources */,
+				DD9059A72B2BDF1E0054FA0E /* Task 151.c in Sources */,
 				DD8D113A2AD787590064DD40 /* Swap_Function.c in Sources */,
+				DD95C6C92B2D2CB300A56224 /* BubbleSort.c in Sources */,
+				DD9849792B2B03430051E29C /* Task 149.c in Sources */,
 				DD8E2C682AE0B47000A4059C /* Pointers In Functions.c in Sources */,
+				DD91B03B2B2FDBAA0092D761 /* Task 156.c in Sources */,
 				DD8E181E2AD6365600528D03 /* Pointers.c in Sources */,
 				DD8B79FC2AF4E0FE003762DE /* IterateArrayAndMapSquare().c in Sources */,
 				DD8F1F6B2AD0E90A00EDBF28 /* main.c in Sources */,
 				DD936FEF2AD8D6520094257B /* PassingAnArrayToFunction.c in Sources */,
+				DD94023B2B27F5BE00BBAAB7 /* SimpleQuizGame.c in Sources */,
 				DD8917482AF32A6C00DB8E21 /* address.c in Sources */,
+				DD92A2AF2B1C160600A73440 /* FindMinimumValueInArrayWithPointers.c in Sources */,
+				DD9281C52B22A6640087186C /* Task 144.c in Sources */,
+				DD9281C32B22A1AF0087186C /* Task 143.c in Sources */,
+				DD95C6CD2B2D385700A56224 /* Task 154.c in Sources */,
 				DD92B8502B059F4C0084F3D4 /* Write_Task.c in Sources */,
 				DD896BEF2AE5F85E003BE371 /* Unions.c in Sources */,
+				DD8E51BC2B09A46B0088365E /* 4_6.c in Sources */,
+				DD8BDF9C2B0865EB005CB06B /* 4_3.c in Sources */,
 				DD8C37502AECA0E8006B3536 /* calloc functions.c in Sources */,
 				DD88552A2AF8717100621865 /* TheGameOfLife.c in Sources */,
 				DD9165AB2AE9F94D00D661B2 /* malloc()_free().c in Sources */,
